@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8857BB2BF6A3EEBA4E1A452B /* Pods_Ecom_Grocery_Ecom_GroceryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E789412EBC8466F2E2D9B02D /* Pods_Ecom_Grocery_Ecom_GroceryUITests.framework */; };
+		A304644AA01F128C9D7D6715 /* Pods_Ecom_Grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CFC0F6D0446675E14755D1 /* Pods_Ecom_Grocery.framework */; };
+		C0BD35102B8528A6002FCF74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD350F2B8528A6002FCF74 /* AppDelegate.swift */; };
+		C0BD35122B8528A6002FCF74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD35112B8528A6002FCF74 /* SceneDelegate.swift */; };
+		C0BD35142B8528A6002FCF74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD35132B8528A6002FCF74 /* ViewController.swift */; };
+		C0BD35172B8528A6002FCF74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BD35152B8528A6002FCF74 /* Main.storyboard */; };
+		C0BD35192B8528A7002FCF74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BD35182B8528A7002FCF74 /* Assets.xcassets */; };
+		C0BD351C2B8528A7002FCF74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BD351A2B8528A7002FCF74 /* LaunchScreen.storyboard */; };
+		C0BD35272B8528A7002FCF74 /* Ecom_GroceryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD35262B8528A7002FCF74 /* Ecom_GroceryTests.swift */; };
+		C0BD35312B8528A7002FCF74 /* Ecom_GroceryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD35302B8528A7002FCF74 /* Ecom_GroceryUITests.swift */; };
+		C0BD35332B8528A7002FCF74 /* Ecom_GroceryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD35322B8528A7002FCF74 /* Ecom_GroceryUITestsLaunchTests.swift */; };
+		DAAF1C7B5A03E53D4D812063 /* Pods_Ecom_GroceryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CD118B9BC7C38CE86D226F /* Pods_Ecom_GroceryTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0BD35232B8528A7002FCF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0BD35042B8528A6002FCF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BD350B2B8528A6002FCF74;
+			remoteInfo = "Ecom-Grocery";
+		};
+		C0BD352D2B8528A7002FCF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0BD35042B8528A6002FCF74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0BD350B2B8528A6002FCF74;
+			remoteInfo = "Ecom-Grocery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CEB7C11847660B912C8CA5 /* Pods-Ecom-Grocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-Grocery.debug.xcconfig"; path = "Target Support Files/Pods-Ecom-Grocery/Pods-Ecom-Grocery.debug.xcconfig"; sourceTree = "<group>"; };
+		84CD118B9BC7C38CE86D226F /* Pods_Ecom_GroceryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecom_GroceryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88CCAED96450DB896C2130CE /* Pods-Ecom-Grocery-Ecom-GroceryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-Grocery-Ecom-GroceryUITests.release.xcconfig"; path = "Target Support Files/Pods-Ecom-Grocery-Ecom-GroceryUITests/Pods-Ecom-Grocery-Ecom-GroceryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93B24A2D70CCDECC841B9FDF /* Pods-Ecom-GroceryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-GroceryTests.debug.xcconfig"; path = "Target Support Files/Pods-Ecom-GroceryTests/Pods-Ecom-GroceryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9489A8EC8C96FD8214FDF286 /* Pods-Ecom-Grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-Grocery.release.xcconfig"; path = "Target Support Files/Pods-Ecom-Grocery/Pods-Ecom-Grocery.release.xcconfig"; sourceTree = "<group>"; };
+		ACA0D72EDA20CEFD8E0E25EA /* Pods-Ecom-GroceryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-GroceryTests.release.xcconfig"; path = "Target Support Files/Pods-Ecom-GroceryTests/Pods-Ecom-GroceryTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0BD350C2B8528A6002FCF74 /* Ecom-Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecom-Grocery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BD350F2B8528A6002FCF74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0BD35112B8528A6002FCF74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0BD35132B8528A6002FCF74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0BD35162B8528A6002FCF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0BD35182B8528A7002FCF74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0BD351B2B8528A7002FCF74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0BD351D2B8528A7002FCF74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BD35222B8528A7002FCF74 /* Ecom-GroceryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ecom-GroceryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BD35262B8528A7002FCF74 /* Ecom_GroceryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecom_GroceryTests.swift; sourceTree = "<group>"; };
+		C0BD352C2B8528A7002FCF74 /* Ecom-GroceryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ecom-GroceryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0BD35302B8528A7002FCF74 /* Ecom_GroceryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecom_GroceryUITests.swift; sourceTree = "<group>"; };
+		C0BD35322B8528A7002FCF74 /* Ecom_GroceryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ecom_GroceryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C8E6EC24B4D062ADFC497A99 /* Pods-Ecom-Grocery-Ecom-GroceryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-Grocery-Ecom-GroceryUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ecom-Grocery-Ecom-GroceryUITests/Pods-Ecom-Grocery-Ecom-GroceryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E789412EBC8466F2E2D9B02D /* Pods_Ecom_Grocery_Ecom_GroceryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecom_Grocery_Ecom_GroceryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CFC0F6D0446675E14755D1 /* Pods_Ecom_Grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecom_Grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0BD35092B8528A6002FCF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A304644AA01F128C9D7D6715 /* Pods_Ecom_Grocery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD351F2B8528A7002FCF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAAF1C7B5A03E53D4D812063 /* Pods_Ecom_GroceryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD35292B8528A7002FCF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8857BB2BF6A3EEBA4E1A452B /* Pods_Ecom_Grocery_Ecom_GroceryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478CEFCCD5C697E47E4722BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6CFC0F6D0446675E14755D1 /* Pods_Ecom_Grocery.framework */,
+				E789412EBC8466F2E2D9B02D /* Pods_Ecom_Grocery_Ecom_GroceryUITests.framework */,
+				84CD118B9BC7C38CE86D226F /* Pods_Ecom_GroceryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE5EDFDCCB190D184D124EE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07CEB7C11847660B912C8CA5 /* Pods-Ecom-Grocery.debug.xcconfig */,
+				9489A8EC8C96FD8214FDF286 /* Pods-Ecom-Grocery.release.xcconfig */,
+				C8E6EC24B4D062ADFC497A99 /* Pods-Ecom-Grocery-Ecom-GroceryUITests.debug.xcconfig */,
+				88CCAED96450DB896C2130CE /* Pods-Ecom-Grocery-Ecom-GroceryUITests.release.xcconfig */,
+				93B24A2D70CCDECC841B9FDF /* Pods-Ecom-GroceryTests.debug.xcconfig */,
+				ACA0D72EDA20CEFD8E0E25EA /* Pods-Ecom-GroceryTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0BD35032B8528A6002FCF74 = {
+			isa = PBXGroup;
+			children = (
+				C0BD350E2B8528A6002FCF74 /* Ecom-Grocery */,
+				C0BD35252B8528A7002FCF74 /* Ecom-GroceryTests */,
+				C0BD352F2B8528A7002FCF74 /* Ecom-GroceryUITests */,
+				C0BD350D2B8528A6002FCF74 /* Products */,
+				AE5EDFDCCB190D184D124EE2 /* Pods */,
+				478CEFCCD5C697E47E4722BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0BD350D2B8528A6002FCF74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD350C2B8528A6002FCF74 /* Ecom-Grocery.app */,
+				C0BD35222B8528A7002FCF74 /* Ecom-GroceryTests.xctest */,
+				C0BD352C2B8528A7002FCF74 /* Ecom-GroceryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0BD350E2B8528A6002FCF74 /* Ecom-Grocery */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD350F2B8528A6002FCF74 /* AppDelegate.swift */,
+				C0BD35112B8528A6002FCF74 /* SceneDelegate.swift */,
+				C0BD35132B8528A6002FCF74 /* ViewController.swift */,
+				C0BD35152B8528A6002FCF74 /* Main.storyboard */,
+				C0BD35182B8528A7002FCF74 /* Assets.xcassets */,
+				C0BD351A2B8528A7002FCF74 /* LaunchScreen.storyboard */,
+				C0BD351D2B8528A7002FCF74 /* Info.plist */,
+			);
+			path = "Ecom-Grocery";
+			sourceTree = "<group>";
+		};
+		C0BD35252B8528A7002FCF74 /* Ecom-GroceryTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD35262B8528A7002FCF74 /* Ecom_GroceryTests.swift */,
+			);
+			path = "Ecom-GroceryTests";
+			sourceTree = "<group>";
+		};
+		C0BD352F2B8528A7002FCF74 /* Ecom-GroceryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0BD35302B8528A7002FCF74 /* Ecom_GroceryUITests.swift */,
+				C0BD35322B8528A7002FCF74 /* Ecom_GroceryUITestsLaunchTests.swift */,
+			);
+			path = "Ecom-GroceryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0BD350B2B8528A6002FCF74 /* Ecom-Grocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BD35362B8528A7002FCF74 /* Build configuration list for PBXNativeTarget "Ecom-Grocery" */;
+			buildPhases = (
+				71F42BFCAB932C894875FAFC /* [CP] Check Pods Manifest.lock */,
+				C0BD35082B8528A6002FCF74 /* Sources */,
+				C0BD35092B8528A6002FCF74 /* Frameworks */,
+				C0BD350A2B8528A6002FCF74 /* Resources */,
+				5612F932E6736E9233B6D919 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ecom-Grocery";
+			productName = "Ecom-Grocery";
+			productReference = C0BD350C2B8528A6002FCF74 /* Ecom-Grocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0BD35212B8528A7002FCF74 /* Ecom-GroceryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BD35392B8528A7002FCF74 /* Build configuration list for PBXNativeTarget "Ecom-GroceryTests" */;
+			buildPhases = (
+				99CB3EBB861BCFD1D605D6C2 /* [CP] Check Pods Manifest.lock */,
+				C0BD351E2B8528A7002FCF74 /* Sources */,
+				C0BD351F2B8528A7002FCF74 /* Frameworks */,
+				C0BD35202B8528A7002FCF74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BD35242B8528A7002FCF74 /* PBXTargetDependency */,
+			);
+			name = "Ecom-GroceryTests";
+			productName = "Ecom-GroceryTests";
+			productReference = C0BD35222B8528A7002FCF74 /* Ecom-GroceryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0BD352B2B8528A7002FCF74 /* Ecom-GroceryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0BD353C2B8528A7002FCF74 /* Build configuration list for PBXNativeTarget "Ecom-GroceryUITests" */;
+			buildPhases = (
+				E0ABD48976EE4B45F3772D46 /* [CP] Check Pods Manifest.lock */,
+				C0BD35282B8528A7002FCF74 /* Sources */,
+				C0BD35292B8528A7002FCF74 /* Frameworks */,
+				C0BD352A2B8528A7002FCF74 /* Resources */,
+				0008614D5F46DF2D56162054 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0BD352E2B8528A7002FCF74 /* PBXTargetDependency */,
+			);
+			name = "Ecom-GroceryUITests";
+			productName = "Ecom-GroceryUITests";
+			productReference = C0BD352C2B8528A7002FCF74 /* Ecom-GroceryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0BD35042B8528A6002FCF74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C0BD350B2B8528A6002FCF74 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					C0BD35212B8528A7002FCF74 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C0BD350B2B8528A6002FCF74;
+					};
+					C0BD352B2B8528A7002FCF74 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = C0BD350B2B8528A6002FCF74;
+					};
+				};
+			};
+			buildConfigurationList = C0BD35072B8528A6002FCF74 /* Build configuration list for PBXProject "Ecom-Grocery" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0BD35032B8528A6002FCF74;
+			productRefGroup = C0BD350D2B8528A6002FCF74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0BD350B2B8528A6002FCF74 /* Ecom-Grocery */,
+				C0BD35212B8528A7002FCF74 /* Ecom-GroceryTests */,
+				C0BD352B2B8528A7002FCF74 /* Ecom-GroceryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0BD350A2B8528A6002FCF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD351C2B8528A7002FCF74 /* LaunchScreen.storyboard in Resources */,
+				C0BD35192B8528A7002FCF74 /* Assets.xcassets in Resources */,
+				C0BD35172B8528A6002FCF74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD35202B8528A7002FCF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD352A2B8528A7002FCF74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0008614D5F46DF2D56162054 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecom-Grocery-Ecom-GroceryUITests/Pods-Ecom-Grocery-Ecom-GroceryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecom-Grocery-Ecom-GroceryUITests/Pods-Ecom-Grocery-Ecom-GroceryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecom-Grocery-Ecom-GroceryUITests/Pods-Ecom-Grocery-Ecom-GroceryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5612F932E6736E9233B6D919 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecom-Grocery/Pods-Ecom-Grocery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecom-Grocery/Pods-Ecom-Grocery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecom-Grocery/Pods-Ecom-Grocery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71F42BFCAB932C894875FAFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecom-Grocery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99CB3EBB861BCFD1D605D6C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecom-GroceryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0ABD48976EE4B45F3772D46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecom-Grocery-Ecom-GroceryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0BD35082B8528A6002FCF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD35142B8528A6002FCF74 /* ViewController.swift in Sources */,
+				C0BD35102B8528A6002FCF74 /* AppDelegate.swift in Sources */,
+				C0BD35122B8528A6002FCF74 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD351E2B8528A7002FCF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD35272B8528A7002FCF74 /* Ecom_GroceryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0BD35282B8528A7002FCF74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0BD35332B8528A7002FCF74 /* Ecom_GroceryUITestsLaunchTests.swift in Sources */,
+				C0BD35312B8528A7002FCF74 /* Ecom_GroceryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0BD35242B8528A7002FCF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0BD350B2B8528A6002FCF74 /* Ecom-Grocery */;
+			targetProxy = C0BD35232B8528A7002FCF74 /* PBXContainerItemProxy */;
+		};
+		C0BD352E2B8528A7002FCF74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0BD350B2B8528A6002FCF74 /* Ecom-Grocery */;
+			targetProxy = C0BD352D2B8528A7002FCF74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0BD35152B8528A6002FCF74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BD35162B8528A6002FCF74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0BD351A2B8528A7002FCF74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0BD351B2B8528A7002FCF74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0BD35342B8528A7002FCF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0BD35352B8528A7002FCF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0BD35372B8528A7002FCF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07CEB7C11847660B912C8CA5 /* Pods-Ecom-Grocery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ecom-Grocery/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.Ecom-Grocery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0BD35382B8528A7002FCF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9489A8EC8C96FD8214FDF286 /* Pods-Ecom-Grocery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ecom-Grocery/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.Ecom-Grocery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C0BD353A2B8528A7002FCF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93B24A2D70CCDECC841B9FDF /* Pods-Ecom-GroceryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.Ecom-GroceryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecom-Grocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecom-Grocery";
+			};
+			name = Debug;
+		};
+		C0BD353B2B8528A7002FCF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA0D72EDA20CEFD8E0E25EA /* Pods-Ecom-GroceryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.Ecom-GroceryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecom-Grocery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecom-Grocery";
+			};
+			name = Release;
+		};
+		C0BD353D2B8528A7002FCF74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8E6EC24B4D062ADFC497A99 /* Pods-Ecom-Grocery-Ecom-GroceryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.Ecom-GroceryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ecom-Grocery";
+			};
+			name = Debug;
+		};
+		C0BD353E2B8528A7002FCF74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88CCAED96450DB896C2130CE /* Pods-Ecom-Grocery-Ecom-GroceryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 659TVY4N4U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omgandhi.Ecom-GroceryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ecom-Grocery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0BD35072B8528A6002FCF74 /* Build configuration list for PBXProject "Ecom-Grocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BD35342B8528A7002FCF74 /* Debug */,
+				C0BD35352B8528A7002FCF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BD35362B8528A7002FCF74 /* Build configuration list for PBXNativeTarget "Ecom-Grocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BD35372B8528A7002FCF74 /* Debug */,
+				C0BD35382B8528A7002FCF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BD35392B8528A7002FCF74 /* Build configuration list for PBXNativeTarget "Ecom-GroceryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BD353A2B8528A7002FCF74 /* Debug */,
+				C0BD353B2B8528A7002FCF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0BD353C2B8528A7002FCF74 /* Build configuration list for PBXNativeTarget "Ecom-GroceryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0BD353D2B8528A7002FCF74 /* Debug */,
+				C0BD353E2B8528A7002FCF74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0BD35042B8528A6002FCF74 /* Project object */;
+}
