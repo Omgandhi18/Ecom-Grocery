@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		8857BB2BF6A3EEBA4E1A452B /* Pods_Ecom_Grocery_Ecom_GroceryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E789412EBC8466F2E2D9B02D /* Pods_Ecom_Grocery_Ecom_GroceryUITests.framework */; };
 		A304644AA01F128C9D7D6715 /* Pods_Ecom_Grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6CFC0F6D0446675E14755D1 /* Pods_Ecom_Grocery.framework */; };
+		C0AFEC6E2B8A039D00CA8E4A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC6D2B8A039D00CA8E4A /* LoginVC.swift */; };
+		C0AFEC782B8A05DB00CA8E4A /* LocalStateCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC702B8A05DB00CA8E4A /* LocalStateCheck.swift */; };
+		C0AFEC792B8A05DB00CA8E4A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC712B8A05DB00CA8E4A /* WebService.swift */; };
+		C0AFEC7A2B8A05DB00CA8E4A /* ListTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC722B8A05DB00CA8E4A /* ListTableVC.swift */; };
+		C0AFEC7B2B8A05DB00CA8E4A /* API_URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC732B8A05DB00CA8E4A /* API_URL.swift */; };
+		C0AFEC7C2B8A05DB00CA8E4A /* AlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC742B8A05DB00CA8E4A /* AlertVC.swift */; };
+		C0AFEC7D2B8A05DB00CA8E4A /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC752B8A05DB00CA8E4A /* DatePickerVC.swift */; };
+		C0AFEC7E2B8A05DB00CA8E4A /* HelperClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC762B8A05DB00CA8E4A /* HelperClass.swift */; };
+		C0AFEC7F2B8A05DB00CA8E4A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0AFEC772B8A05DB00CA8E4A /* Settings.swift */; };
 		C0BD35102B8528A6002FCF74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD350F2B8528A6002FCF74 /* AppDelegate.swift */; };
 		C0BD35122B8528A6002FCF74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD35112B8528A6002FCF74 /* SceneDelegate.swift */; };
 		C0BD35142B8528A6002FCF74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BD35132B8528A6002FCF74 /* ViewController.swift */; };
@@ -45,6 +54,15 @@
 		93B24A2D70CCDECC841B9FDF /* Pods-Ecom-GroceryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-GroceryTests.debug.xcconfig"; path = "Target Support Files/Pods-Ecom-GroceryTests/Pods-Ecom-GroceryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9489A8EC8C96FD8214FDF286 /* Pods-Ecom-Grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-Grocery.release.xcconfig"; path = "Target Support Files/Pods-Ecom-Grocery/Pods-Ecom-Grocery.release.xcconfig"; sourceTree = "<group>"; };
 		ACA0D72EDA20CEFD8E0E25EA /* Pods-Ecom-GroceryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecom-GroceryTests.release.xcconfig"; path = "Target Support Files/Pods-Ecom-GroceryTests/Pods-Ecom-GroceryTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0AFEC6D2B8A039D00CA8E4A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C0AFEC702B8A05DB00CA8E4A /* LocalStateCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStateCheck.swift; sourceTree = "<group>"; };
+		C0AFEC712B8A05DB00CA8E4A /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		C0AFEC722B8A05DB00CA8E4A /* ListTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableVC.swift; sourceTree = "<group>"; };
+		C0AFEC732B8A05DB00CA8E4A /* API_URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_URL.swift; sourceTree = "<group>"; };
+		C0AFEC742B8A05DB00CA8E4A /* AlertVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertVC.swift; sourceTree = "<group>"; };
+		C0AFEC752B8A05DB00CA8E4A /* DatePickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
+		C0AFEC762B8A05DB00CA8E4A /* HelperClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperClass.swift; sourceTree = "<group>"; };
+		C0AFEC772B8A05DB00CA8E4A /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		C0BD350C2B8528A6002FCF74 /* Ecom-Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ecom-Grocery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BD350F2B8528A6002FCF74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0BD35112B8528A6002FCF74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,8 +129,37 @@
 				93B24A2D70CCDECC841B9FDF /* Pods-Ecom-GroceryTests.debug.xcconfig */,
 				ACA0D72EDA20CEFD8E0E25EA /* Pods-Ecom-GroceryTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0AFEC6B2B8A038300CA8E4A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0AFEC6D2B8A039D00CA8E4A /* LoginVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C0AFEC6C2B8A038C00CA8E4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0AFEC6F2B8A05B600CA8E4A /* Important Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C0AFEC742B8A05DB00CA8E4A /* AlertVC.swift */,
+				C0AFEC732B8A05DB00CA8E4A /* API_URL.swift */,
+				C0AFEC752B8A05DB00CA8E4A /* DatePickerVC.swift */,
+				C0AFEC762B8A05DB00CA8E4A /* HelperClass.swift */,
+				C0AFEC722B8A05DB00CA8E4A /* ListTableVC.swift */,
+				C0AFEC702B8A05DB00CA8E4A /* LocalStateCheck.swift */,
+				C0AFEC772B8A05DB00CA8E4A /* Settings.swift */,
+				C0AFEC712B8A05DB00CA8E4A /* WebService.swift */,
+			);
+			name = "Important Classes";
 			sourceTree = "<group>";
 		};
 		C0BD35032B8528A6002FCF74 = {
@@ -140,6 +187,9 @@
 		C0BD350E2B8528A6002FCF74 /* Ecom-Grocery */ = {
 			isa = PBXGroup;
 			children = (
+				C0AFEC6F2B8A05B600CA8E4A /* Important Classes */,
+				C0AFEC6C2B8A038C00CA8E4A /* Views */,
+				C0AFEC6B2B8A038300CA8E4A /* Controllers */,
 				C0BD350F2B8528A6002FCF74 /* AppDelegate.swift */,
 				C0BD35112B8528A6002FCF74 /* SceneDelegate.swift */,
 				C0BD35132B8528A6002FCF74 /* ViewController.swift */,
@@ -407,8 +457,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AFEC792B8A05DB00CA8E4A /* WebService.swift in Sources */,
 				C0BD35142B8528A6002FCF74 /* ViewController.swift in Sources */,
 				C0BD35102B8528A6002FCF74 /* AppDelegate.swift in Sources */,
+				C0AFEC7C2B8A05DB00CA8E4A /* AlertVC.swift in Sources */,
+				C0AFEC782B8A05DB00CA8E4A /* LocalStateCheck.swift in Sources */,
+				C0AFEC7B2B8A05DB00CA8E4A /* API_URL.swift in Sources */,
+				C0AFEC7F2B8A05DB00CA8E4A /* Settings.swift in Sources */,
+				C0AFEC7E2B8A05DB00CA8E4A /* HelperClass.swift in Sources */,
+				C0AFEC7D2B8A05DB00CA8E4A /* DatePickerVC.swift in Sources */,
+				C0AFEC7A2B8A05DB00CA8E4A /* ListTableVC.swift in Sources */,
+				C0AFEC6E2B8A039D00CA8E4A /* LoginVC.swift in Sources */,
 				C0BD35122B8528A6002FCF74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +561,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -565,7 +624,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -595,6 +654,7 @@
 				DEVELOPMENT_TEAM = 659TVY4N4U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ecom-Grocery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GroceryShop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -624,6 +684,7 @@
 				DEVELOPMENT_TEAM = 659TVY4N4U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Ecom-Grocery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GroceryShop;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
